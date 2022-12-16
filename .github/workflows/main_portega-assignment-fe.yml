@@ -50,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'vprohaska-assignment-FE'
+          app-name: 'portega-assignment-fe-prod'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_89813D87D2C3468DA1BBA5CE78C7EDBF }}
           package: .
