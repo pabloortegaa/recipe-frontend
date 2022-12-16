@@ -5,8 +5,6 @@ name: Build and deploy VueJS app to Azure Web App
 
 on:
   push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
